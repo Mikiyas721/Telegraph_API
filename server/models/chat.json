@@ -1,0 +1,32 @@
+{
+  "name": "chat",
+  "plural": "chats",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "user1id": {
+      "type": "string",
+      "required": true
+    },
+    "user2id": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": [
+        {
+          "text": "string",
+          "senderId": "string",
+          "date": "date"
+        }
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
