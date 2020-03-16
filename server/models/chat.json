@@ -7,26 +7,28 @@
     "validateUpsert": true
   },
   "properties": {
-    "user1id": {
-      "type": "string",
-      "required": true
-    },
-    "user2id": {
-      "type": "string",
-      "required": true
-    },
-    "body": {
+    "usersid": {
       "type": [
-        {
-          "text": "string",
-          "senderId": "string",
-          "date": "date"
-        }
-      ]
+        "string"
+      ],
+      "required": true
+    },
+    "chattype": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "messages": {
+      "type": "hasMany",
+      "model": "message",
+      "foreignKey": "chat_id",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

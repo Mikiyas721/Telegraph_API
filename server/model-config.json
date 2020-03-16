@@ -13,11 +13,15 @@
       "./mixins"
     ]
   },
-  "chat": {
+  "user": {
     "dataSource": "mongo",
     "public": true
   },
-  "user": {
+  "message": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "chat": {
     "dataSource": "mongo",
     "public": true
   }
