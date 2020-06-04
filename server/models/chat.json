@@ -16,6 +16,12 @@
     "chattype": {
       "type": "string",
       "required": true
+    },
+    "imageurl": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
     }
   },
   "validations": [],

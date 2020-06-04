@@ -7,10 +7,6 @@
     "validateUpsert": true
   },
   "properties": {
-    "chatid": {
-      "type": "string",
-      "required": true
-    },
     "senderid": {
       "type": "string",
       "required": true

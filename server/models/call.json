@@ -1,0 +1,27 @@
+{
+  "name": "call",
+  "plural": "calls",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "callerId": {
+      "type": "string",
+      "required": true
+    },
+    "receiverId": {
+      "type": "string",
+      "required": true
+    },
+    "call_time": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

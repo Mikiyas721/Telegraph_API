@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "call": 7
+  },
+  "models": {
+    "call": {
+      "4": "{\"callerId\":\"5ed80b1c0eeda33bc4b2f2ad\",\"receiverId\":\"5ed80b5c0eeda33bc4b2f2ae\",\"call_time\":\"2020-06-03T15:02:14.154Z\",\"id\":4}",
+      "5": "{\"callerId\":\"5ed80b1c0eeda33bc4b2f2ad\",\"receiverId\":\"5ed80b7b0eeda33bc4b2f2af\",\"call_time\":\"2020-06-03T15:02:14.154Z\",\"id\":5}",
+      "6": "{\"callerId\":\"5ed80b8e0eeda33bc4b2f2b0\",\"receiverId\":\"5ed80b1c0eeda33bc4b2f2ad\",\"call_time\":\"2020-06-03T15:02:14.154Z\",\"id\":6}"
+    }
+  }
+}

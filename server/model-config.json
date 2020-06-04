@@ -24,5 +24,13 @@
   "chat": {
     "dataSource": "mongo",
     "public": true
+  },
+  "call": {
+    "dataSource": "database",
+    "public": true
+  },
+  "contact": {
+    "dataSource": "database",
+    "public": true
   }
 }
